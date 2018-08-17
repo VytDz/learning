@@ -1,0 +1,1 @@
+example of good and bad code. Made some ugly as f noodle code, refactored later. 
