@@ -35,7 +35,7 @@ public class test {
 		numbers.add(j);
 		}
 		
-		System.out.println("frequency:" + B);
+		System.out.println("frequency:" + frequencies);
 		System.out.print("numbers  :" + numbers);
 	}
 }
