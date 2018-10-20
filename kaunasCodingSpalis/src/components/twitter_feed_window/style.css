@@ -1,0 +1,24 @@
+.twitterFeedWindow {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  background-color: #CCCCCC;
+}
+.twitterFeedWindow h2 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0px 0px 0px;
+}
+.twitterFeedWindow div {
+  border-radius: 4px;
+  background-color: white;
+  max-height: 93%;
+  max-width: 390px;
+  margin: 25px 5px 0px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

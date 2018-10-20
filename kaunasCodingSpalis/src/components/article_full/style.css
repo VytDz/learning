@@ -1,0 +1,16 @@
+.articleFull {
+  display: flex;
+  border-radius: 2px;
+  max-width: 910px;
+  height: 100%;
+  margin: 25px 0px 0px 0px;
+  border: none;
+  background-color: #FFE4E4;
+}
+.articleFull img {
+  margin: 10px 0px 0px 10px;
+  height: 200px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
