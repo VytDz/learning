@@ -1,0 +1,33 @@
+.articleHome {
+  display: flex;
+  border-radius: 4px;
+  max-width: 910px;
+  height: 220px;
+  margin: 25px 0px 0px 0px;
+  border: none;
+  background-color: #FFE4E4;
+}
+.articleHome img {
+  margin: 10px 0px 0px 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.articleHome__text {
+  margin: 10px 10px 0px 10px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+}
+.articleHome__text h2 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.articleHome__text p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
