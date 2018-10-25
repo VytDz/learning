@@ -1,9 +1,10 @@
 $fontstack: 'Montserrat', sans-serif;
 
-.articleFull{
+.articleHome{
     display: flex;
     border-radius:4px;
     max-width: 910px;
+    height: 220px;
     margin: 25px 0px 0px 0px;
     border: none;
     background-color: #FFE4E4;
@@ -15,8 +16,8 @@ $fontstack: 'Montserrat', sans-serif;
         }
 }
 
-.articleFull__text{
-    margin: 10px 20px 20px 20px;
+.articleHome__text{
+    margin: 10px 10px 0px 10px;
     width: 80%;
     display: flex;
     flex-flow: column;
@@ -27,29 +28,18 @@ $fontstack: 'Montserrat', sans-serif;
         }
 
         p{
-            float: left;
             font-family: $fontstack;
             text-align: center;
+            overflow: hidden;
         }
-}
-
-@media only screen and (max-width: 800px){
-    .articleFull{
-        img{
-            margin: 8px 0px 0px 8px;
-            height: 100px;
-            width: 100px;
-        }
-    }
 }
 
 @media only screen and (max-width: 640px){
-    .articleFull{
+    .articleHome{
         width: 100%;
-        img{
-            margin: 5px 0px 0px 5px;
-            height: 50px;
-            width: 50px;
-        }
+    }
+
+    .articleHome__text{
+        width: 100%;
     }
 }

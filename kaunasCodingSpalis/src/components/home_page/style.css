@@ -17,6 +17,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  padding-bottom: 25px;
 }
 
 .wrapperHome__elements__main {
@@ -30,6 +31,19 @@
   border: none;
   padding: 0;
   margin: 25px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapperHome__elements__main {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .wrapperHome__elements__aside {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

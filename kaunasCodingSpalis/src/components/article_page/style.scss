@@ -31,3 +31,13 @@
     padding: 0;
     margin: 25px 20px 0px 20px;
 }
+
+@media only screen and (max-width: 640px){
+    .wrapperArticle__elements__main{
+        width: 100%;
+    }
+
+    .wrapperArticle__elements__aside{
+        display: none;
+    }
+}

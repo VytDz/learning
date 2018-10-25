@@ -1,0 +1,15 @@
+$fontstack: 'Montserrat', sans-serif;
+
+.commentSection{
+    width: 100%;
+    max-height: 98%;
+    background-color: #C4C4C4;
+    font-family: $fontstack;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-bottom: 15px;
+        h2{
+            margin: 25px 0px 0px 25px;
+            padding: 25px 0px 25px 0px;
+        }
+}

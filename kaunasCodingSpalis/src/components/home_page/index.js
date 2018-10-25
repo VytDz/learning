@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CatTab from '../categories_tab';
 import Header from '../header';
-import ArticleHome from '../article_home';
+import ArticleHome from '../article_thumb';
 import TwitterFeedWindow from '../twitter_feed_window';
 import './style.css'
 

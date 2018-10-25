@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TwitterPost from '../twitter_post'
 import './style.css'
 
 class TwitterFeedWindow extends Component {
@@ -7,7 +8,9 @@ class TwitterFeedWindow extends Component {
         return (
             <aside className='twitterFeedWindow'>
                 <h2>Related Twitter Feed</h2>
-                <div></div>
+                <div>
+                    <TwitterPost />
+                </div>
             </aside>
          );
     }

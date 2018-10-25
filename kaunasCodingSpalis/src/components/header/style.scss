@@ -43,9 +43,13 @@ $fontstack: 'Montserrat', sans-serif;
 }
 
 .header__logoHome{
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 5px rgba(132, 150, 255, 0.4);
+    }
     width: 130px;
     height: 40px;
-    margin:5px 0px 0px 200px;
+    margin:5px auto 0px auto;
     border-radius: 40px;
     color: black;
     background-color: #EDEDED;
@@ -61,7 +65,9 @@ $fontstack: 'Montserrat', sans-serif;
 
 .header__socMedia{
     display: flex;
-    margin:5px 0px 0px 450px;
+    float: right;
+    clear: both;
+    margin:5px 10px 0px 10px;
         .header__socMedia--twitter{
             text-align: center;
             width: 40px;
@@ -98,3 +104,86 @@ i{
 // .header_time{
 //     background-color: #6B6B6B;
 // }
+
+@media only screen and (max-width: 1024px){
+    .header__logoHome{
+        width: 100px;
+        height: 40px;
+        margin:5px auto 0px auto;
+        border-radius: 40px;
+        color: black;
+        background-color: #EDEDED;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        p{
+            font-family: $fontstack;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            margin: 8px 0px 0px 0px;
+        }
+    }
+
+    .header__logins{
+        ul{
+            display: flex;
+            li{
+                margin-left: 10px;
+                font-family: $fontstack;
+                color: black;
+                font-size: 12px;
+                list-style-type: none;
+            }
+        }
+    }
+
+    .header__searchBar{
+        width: 200px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 640px){
+    .header__logoHome{
+        width: 70px;
+        height: 40px;
+        margin:5px auto 0px auto;
+        border-radius: 40px;
+        color: black;
+        background-color: #EDEDED;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        p{
+            font-family: $fontstack;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            margin: 8px 0px 0px 0px;
+        }
+    }
+
+    .header__socMedia--facebook{
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+        border-radius: 25px;
+        background-color: #EDEDED;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+            i{
+                margin-top:3px;
+            }
+    }
+
+    .header__logins{
+        ul{
+            display: none;
+        }
+    }
+
+    .header__searchBar{
+        width: 100px;
+    }
+
+
+}

@@ -25,16 +25,16 @@ class Header extends Component {
                         <li>Sign Up</li>
                         <li>Sign In</li>
                     </ul>
-                </div>
+                </div> 
                 <div className='header__logoHome'>
                    <p><i className="fas fa-power-off"></i>Nerdrage</p> 
                 </div>
                 <div className='header__socMedia'>
                     <div className='header__socMedia--twitter'>
-                        <i className="fab fa-twitter fa-2x"></i>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i></a>
                     </div>
                     <div className='header__socMedia--facebook'>
-                       <i className="fab fa-facebook-f fa-2x"></i>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-2x"></i></a>
                     </div>
                 </div>
                 {/* <div className='header_time'>{this.state.time}</div> */}
