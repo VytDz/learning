@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import HomePage from '../home_page';
 import './style.css'
+
+
+       
+      {/* <Route path="/topics" component={Topics} /> */}
 
 class Header extends Component {
 // Finish if there's time
@@ -11,9 +17,11 @@ class Header extends Component {
 // }
 //     var LocalTime = new Date();
 
-    
+
 
     render() {
+        const home = <Route path="../home_page/index.js" component={HomePage} />;
+
         return (
             <header className='header'>
                 <div className='header__searchBar'>
@@ -45,3 +53,4 @@ class Header extends Component {
 }
 
 export default Header;
+

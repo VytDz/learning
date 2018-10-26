@@ -16,6 +16,11 @@ $fontstack: 'Montserrat', sans-serif;
         li{
             margin-top: 7px;
                 a{
+                    &:hover{
+                        cursor: pointer;
+                        color: rgb(7, 28, 73);
+                    }
+
                     font-family: $fontstack;
                     font-weight: bold;
                     text-decoration: none;

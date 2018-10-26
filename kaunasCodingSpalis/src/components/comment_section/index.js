@@ -6,11 +6,9 @@ class CommentSection extends Component {
     state = {  }
     render() {
         return (
-            <div>
-                <div className='commentSection'>
-                    <h2>Comment Section:</h2>
-                    <Comment />
-                </div>
+            <div className='commentSection'>
+                <h2>Comment Section:</h2>
+                <Comment />
             </div>
          );
     }

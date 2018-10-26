@@ -22,6 +22,10 @@
   font-size: 24px;
   color: black;
 }
+.catTab__ul--styles li a:hover {
+  cursor: pointer;
+  color: #071c49;
+}
 
 @media only screen and (max-width: 1024px) {
   .catTab__ul--styles li {

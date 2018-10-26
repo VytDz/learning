@@ -24,6 +24,7 @@ class ArticleFull extends Component {
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero totam eaque architecto at illum numquam, reiciendis non assumenda cum nihil dolore incidunt aliquam, exercitationem fugit et quisquam dicta beatae laboriosam!
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero totam eaque architecto at illum numquam, reiciendis non assumenda cum nihil dolore incidunt aliquam, exercitationem fugit et quisquam dicta beatae laboriosam!
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero totam eaque architecto at illum numquam, reiciendis non assumenda cum nihil dolore incidunt aliquam, exercitationem fugit et quisquam dicta beatae laboriosam!
+                        
                     </p>
                 </div>
             </article>
