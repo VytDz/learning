@@ -1,0 +1,43 @@
+.articleHome {
+  display: flex;
+  border-radius: 4px;
+  max-width: 910px;
+  height: 220px;
+  margin: 12px 0px 0px 0px;
+  border: none;
+  background-color: #ffffff;
+}
+.articleHome img {
+  margin: 10px 0px 0px 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.articleHome__text {
+  margin: 10px 10px 0px 10px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+}
+.articleHome__text h2 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.articleHome__text p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 640px) {
+  .articleHome {
+    width: 100%;
+  }
+
+  .articleHome__text {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
