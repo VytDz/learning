@@ -4,6 +4,8 @@
 @import "../pages/sign_in_page/style.css";
 @import "../pages/sign_up_page/style.css";
 @import "../pages/category_page/style.css";
+@import "../pages/contact_us/style.css";
+@import "../pages/admin_page/style.css";
 @import "../components/article_full/style.css";
 @import "../components/article_thumb/style.css";
 @import "../components/categories_tab/style.css";
@@ -19,6 +21,7 @@ body{
     min-height: 700px;
     background: url("../img/bartosz-kwitkowski-509565-unsplash2.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
