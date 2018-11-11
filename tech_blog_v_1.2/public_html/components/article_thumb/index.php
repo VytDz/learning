@@ -1,11 +1,12 @@
-<article class='articleHome'>
-                <img src="/../../img/articleThumb.jpg" alt="thumb"/>
-                <div class='articleHome__text'>
-                    <h2>Temp heading</h2>
-                    <p>
-                        {/* need to get text from database, in heading aswell */}
-                        Temp text!!!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero totam eaque architecto at illum numquam, reiciendis non assumenda cum nihil dolore incidunt aliquam, exercitationem fugit et quisquam dicta beatae laboriosam!
-                    </p>
-                </div>
-            </article>
+<?php
+    getRandomArticles();
+
+
+?>
+    <a href="../../pages/article_page/index.php" class='articleHome'>
+        <img src="<?php echo $_SESSION["img"]; ?>" alt="thumbnail of a picture"/>
+        <div class='articleHome__text'>
+            <h2><?php echo $_SESSION["heading"]; ?></h2>
+            <p><?php echo $_SESSION["text"]; ?></p>
+        </div>
+    </a>

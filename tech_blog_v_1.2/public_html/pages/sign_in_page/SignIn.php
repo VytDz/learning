@@ -19,31 +19,17 @@ function verifyUser()
         $hashedPwd = $result->fetch_assoc()["password"];
 
         $conn->close();
-//        echo $username . "1";
-//        echo $hashedPwd;
+
         if (password_verify($password, $hashedPwd) && $username == "admin") {
+            session_start();
             $_SESSION['user'] = $username;
             header("Location: ../admin_page/index.php");
         } else {
             echo 'Invalid password.';
+            header("Location: ./index.php");
+            exit();
         }
 
-//       var_dump(password_verify($password,$hashedPwd)) ;
-
-//        if (password_verify($password, $hashedPwd) && $username == "admin") {
-//
-//            echo "bla";
-//            session_start();
-//
-//            if (!isset($_SESSION['user'])) {
-//
-//                echo $username . "2";
-//
-//            } else {
-//                echo 'Invalid password.';
-//            }
-//
-//        }
     }
 
 

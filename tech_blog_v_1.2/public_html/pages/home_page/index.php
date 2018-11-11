@@ -1,3 +1,8 @@
+<?php
+session_start();
+include_once __DIR__."/../../libs/php/randomArticleHandler.php"
+?>
+
 <div class='wrapperHome'>
     <div class='wrapperHome__header'>
         <?php
@@ -8,10 +13,10 @@
         <div class='wrapperHome__elements__main'>
             <?php
                 include_once __DIR__."/../../components/categories_tab/index.php";
-                include __DIR__."/../../components/article_thumb/index.php";
-                include __DIR__."/../../components/article_thumb/index.php";
-                include __DIR__."/../../components/article_thumb/index.php";
-                include __DIR__."/../../components/article_thumb/index.php";
+                include __DIR__ . "/../../components/article_thumb/index.php";
+                include __DIR__ . "/../../components/article_thumb/index.php";
+                include __DIR__ . "/../../components/article_thumb/index.php";
+                include __DIR__ . "/../../components/article_thumb/index.php";
 
             ?>
         </div>

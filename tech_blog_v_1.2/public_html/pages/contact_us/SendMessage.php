@@ -43,13 +43,13 @@ try {
     $mail->SMTPDebug = 3;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'vytenis.test.mail@gmail.com';                 // SMTP username
-    $mail->Password = 'Srekasyrazalias';                           // SMTP password
+    $mail->Username = '';                 // SMTP username
+    $mail->Password = '';                           // SMTP password
     //=============================
 
     //Recipients
-    $mail->setFrom('vytenis.test.mail@gmail.com', 'Mailer');
-    $mail->addAddress('dzvonkasvytenis@gmail.com', 'zinute is portfolio');     // Add a recipient
+    $mail->setFrom('', 'Mailer');
+    $mail->addAddress('', 'zinute is portfolio');     // Add a recipient
     $mail->addReplyTo( $email, $name);
 
     //Content
@@ -58,7 +58,7 @@ try {
     $mail->Body    = $message;
     $mail->AltBody = $message;
 
-    // !!!! laisko siuntimas
+    
     $mail->send();
 
 

@@ -5,10 +5,10 @@ include_once __DIR__."/../../components/categories_tab/index.php";
 session_start();
 
 
-//if ( $_SESSION["user"] !== 'admin'){
-//    header("Location: ../../index.php");
-//    session_write_close();
-//}
+if ( $_SESSION["user"] !== 'admin'){
+    header("Location: ../../index.php");
+    session_write_close();
+}
 
 ?>
 
@@ -19,8 +19,10 @@ session_start();
         <input class="article-form__input" name="category" required type="text"/>
         <h3 class="article-form__name">Heading</h3>
         <input class="article-form__input" name="heading" required type="text"/>
+        <h3 class="article-form__name">Image url</h3>
+        <input class="article-form__input" name="image" required type="text"/>
         <h3 class="article-form__name">Article</h3>
-        <input class="article-form__input-lg" name="article" required type="text"/>
+        <textarea class="article-form__input-lg" name="article" required type="text"></textarea>
         <button type="submit" value="Submit">Upload article</button>
     </form>
 </div>
