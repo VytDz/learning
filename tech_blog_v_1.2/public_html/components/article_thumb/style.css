@@ -13,6 +13,22 @@
     text-shadow: none;
 }
 
+.articleHome form{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.articleHome form input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .articleHome img {
     margin: 10px 0px 0px 10px;
     height: 200px;

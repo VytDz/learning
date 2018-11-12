@@ -19,7 +19,7 @@ function getArticlesByCategory($chosenCat)
     // Filter by page category
     $categorisedArticleArr = array();
     foreach($articlesArr as $row) {
-        if($row[2] == $chosenCat)
+        if($row[1] == $chosenCat)
             array_push($categorisedArticleArr, $row);
     }
 
